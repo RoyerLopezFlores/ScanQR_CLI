@@ -5,3 +5,7 @@ ScanQR_CLI is a command line tool for scanning QR codes using OpenCV and Pyzbar.
 - Take screenshots of the screen and scan QR codes from them(only Windows)
 
 ![ScanCLI structure](./assets/structure_proyect.png)
+
+#### Usage
+- Edit analize_qr.ps1 `$dir_script` set the path of the project
+- (If you create a new enviroment) Edit analize_qr.ps1 `$python` to set the path of the python executable in your environment

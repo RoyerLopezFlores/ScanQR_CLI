@@ -4,7 +4,7 @@ param(
 )
 Add-Type -AssemblyName System.Windows.Forms
 $python = "python"
-$dir_script = "E:\proyects\qr_easy"
+$dir_script = ""
 $current_location = Get-Location
 Set-Location $dir_script
 $timeoutSeconds = 10
